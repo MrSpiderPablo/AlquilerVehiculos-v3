@@ -52,11 +52,11 @@ public class Alquileres implements IAlquileres {
 	
 	public void comenzar() {
 		
-		Document documento = UtilidadesXml.leerXmlDeFichero(FICHERO_ALQUILERES);
-		if (documento == null) {
-			throw new NullPointerException("ERROR: El documento no puede ser nulo. ");
-		}
-		leerDom(documento);
+//		Document documento = UtilidadesXml.leerXmlDeFichero(FICHERO_ALQUILERES);
+//		if (documento == null) {
+//			throw new NullPointerException("ERROR: El documento no puede ser nulo. ");
+//		}
+//		leerDom(documento);
 	}
 	
 	private void leerDom(Document documentoXml) {

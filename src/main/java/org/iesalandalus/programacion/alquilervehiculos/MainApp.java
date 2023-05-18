@@ -11,9 +11,11 @@ public class MainApp {
 
 	public static void main(String[] args) {
 		Modelo modelo = new ModeloCascada(FactoriaFuenteDatos.FICHEROS);
-		Vista vista = (FactoriaVista.TEXTO.crear());
+		Vista vista = (FactoriaVista.GRAFICA.crear());
 		Controlador controlador = new Controlador(modelo, vista);
 		controlador.comenzar();
 	}
+	
+	
 
 }

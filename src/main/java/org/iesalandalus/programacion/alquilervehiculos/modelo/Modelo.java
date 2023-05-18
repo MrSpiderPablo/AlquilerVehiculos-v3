@@ -66,11 +66,11 @@ public abstract class Modelo {
 	public void comenzar() {
 
 	
-		clientes.comenzar();
-		
-		vehiculos.comenzar();
-		
-		alquileres.comenzar();
+//		clientes.comenzar();
+//		
+//		vehiculos.comenzar();
+//		
+//		alquileres.comenzar();
 		
 		
 	}

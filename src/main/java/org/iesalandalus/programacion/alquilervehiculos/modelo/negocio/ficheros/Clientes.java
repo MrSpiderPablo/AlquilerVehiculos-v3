@@ -45,11 +45,11 @@ public class Clientes implements IClientes {
 
 	public void comenzar() {
 		
-		Document documento = UtilidadesXml.leerXmlDeFichero(FICHERO_CLIENTES);
-		if (documento == null) {
-			throw new NullPointerException("ERROR: El documento no puede ser nulo. ");
-		}
-		leerDom(documento);
+//		Document documento = UtilidadesXml.leerXmlDeFichero(FICHERO_CLIENTES);
+//		if (documento == null) {
+//			throw new NullPointerException("ERROR: El documento no puede ser nulo. ");
+//		}
+//		leerDom(documento);
 	}
 
 	private void leerDom(Document documentoXml) {

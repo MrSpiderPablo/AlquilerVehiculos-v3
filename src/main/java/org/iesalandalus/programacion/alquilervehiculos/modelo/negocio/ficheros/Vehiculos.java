@@ -55,11 +55,11 @@ public class Vehiculos  implements IVehiculos  {
 	
 	public void comenzar() {
 		
-		Document documento = UtilidadesXml.leerXmlDeFichero(FICHERO_VEHICULOS);
-		if (documento == null) {
-			throw new NullPointerException("ERROR: El documento no puede ser nulo. ");
-		}
-		leerDom(documento);
+//		Document documento = UtilidadesXml.leerXmlDeFichero(FICHERO_VEHICULOS);
+//		if (documento == null) {
+//			throw new NullPointerException("ERROR: El documento no puede ser nulo. ");
+//		}
+//		leerDom(documento);
 	}
 	
 	private void leerDom(Document documentoXml) {
