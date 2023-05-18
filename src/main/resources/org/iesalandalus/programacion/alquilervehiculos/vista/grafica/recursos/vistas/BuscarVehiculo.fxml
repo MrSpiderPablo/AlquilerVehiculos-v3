@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.iesalandalus.programacion.alquilervehiculos.vista.grafica.controladores.BuscarVehiculo">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Label layoutX="179.0" layoutY="39.0" text="Introduce la matrícula del vehículo a buscar">
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="79.0" layoutY="98.0" text="Matricula:" />
+            <TextField layoutX="197.0" layoutY="94.0" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Button layoutX="102.0" layoutY="86.0" mnemonicParsing="false" onAction="#cerrarVentana" text="Cancelar" />
+            <Button layoutX="329.0" layoutY="86.0" mnemonicParsing="false" text="Buscar" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
